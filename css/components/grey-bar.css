@@ -1,0 +1,20 @@
+.grey-bar {
+  width: 100%;
+  height: 7%;
+  background-color: rgba(0, 0, 0, 0.02);
+  margin-top: 15px;
+}
+
+.grey-bar > * {
+  color: var(--grey);
+}
+
+.grey-bar > span {
+  margin: 0px 10px;
+  color: inherit;
+}
+
+.grey-bar > i:last-child {
+  position: relative;
+  top: 2px;
+}

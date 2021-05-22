@@ -1,0 +1,26 @@
+.stats-bar {
+  height: 4%;
+  width: 100%;
+  padding: 0px 8px;
+}
+
+.stats-bar__column {
+  width: 33%;
+}
+
+.stats-bar__column:first-child {
+  justify-content: flex-start;
+}
+
+.stats-bar__column:nth-child(2) {
+  justify-content: center;
+}
+
+.stats-bar__column:last-child {
+  justify-content: flex-end;
+}
+
+.fa-wifi,
+.fa-battery-quarter {
+  margin: 0px 10px;
+}
