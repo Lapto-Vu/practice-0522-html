@@ -10,16 +10,26 @@
 @import url("components/user-column.css");
 @import url("components/divide.css");
 @import url("components/user-column--small.css");
+@import url("components/nav-bar.css");
+@import url("components/user-column--middle.css");
+@import url("components/find-box.css");
+@import url("components/open-chat.css");
 
 .body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  background-color: whitesmoke;
 }
 
-.wrapper {
-  height: 100vh;
-  min-height: 800px;
-  width: 425px;
-  background-color: white;
+.red-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  background-color: tomato;
+}
+
+.red-dot-mother {
+  position: relative;
 }

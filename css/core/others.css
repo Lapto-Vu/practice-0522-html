@@ -23,8 +23,18 @@ img {
   border-radius: 28px;
 }
 
+.bold {
+  font-weight: bold;
+}
+
 .flex {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
 }

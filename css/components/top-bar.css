@@ -25,3 +25,21 @@
 .top-bar__btn > a:nth-child(2) {
   margin-right: 20px;
 }
+
+.top-bar__btn--chats {
+  justify-content: flex-end;
+}
+
+.top-bar__btn--chats > a:nth-child(1),
+.top-bar__btn--chats > a:nth-child(2),
+.top-bar__btn--chats > a:nth-child(3) {
+  margin-right: 20px;
+}
+
+.top-bar__btn--find {
+  justify-content: flex-end;
+}
+
+.top-bar__btn--find > a:nth-child(1) {
+  margin-right: 20px;
+}
