@@ -33,16 +33,18 @@
           number.</span
         >
       </div>
-      <form class="form">
+      <form action="friends.html" method="get" class="form">
         <div class="flex form__box">
-          <input type="text" placeholder="Email or phone number" />
-          <input type="password" placeholder="Password" />
+          <input required type="text" placeholder="Email or phone number" />
+          <input required type="password" placeholder="Password" />
         </div>
         <div class="flex form__box">
-          <button>Log In</button>
-          <button>Sign Up</button>
+          <input class="login" type="submit" value="Log In" />
+          <input class="signup" type="submit" value="Sign Up" />
         </div>
-        <a class="flex form__link" href="#">Find Kakao Account or Password</a>
+        <a class="flex form__link" href="index.html"
+          >Find Kakao Account or Password</a
+        >
       </form>
     </div>
   </body>

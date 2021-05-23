@@ -1,11 +1,17 @@
 .stats-bar {
   height: 4%;
-  width: 100%;
-  padding: 0px 8px;
+  min-width: 100%;
+  padding: 0px 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  box-sizing: border-box;
 }
 
 .stats-bar__column {
-  width: 33%;
+  width: 33.3%;
 }
 
 .stats-bar__column:first-child {
