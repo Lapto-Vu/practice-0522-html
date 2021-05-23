@@ -1,0 +1,35 @@
+.user-column--small {
+  width: 100%;
+  height: 9%;
+  padding: 0px 25px;
+  justify-content: flex-start;
+  color: var(--grey);
+}
+
+.user-column__cover--small {
+  width: 17%;
+  height: 80%;
+  margin-right: 20px;
+}
+
+.user-column__cover--small > img {
+  border-radius: 20px;
+}
+
+.user-column__info--small {
+  width: 43%;
+  height: 100%;
+  font-size: 22px;
+  font-weight: 400;
+  justify-content: flex-start;
+}
+
+.user-column__side-btn {
+  width: 43%;
+  height: 100%;
+  justify-content: flex-end;
+}
+
+.user-column__side-btn > span {
+  margin-right: 8px;
+}
