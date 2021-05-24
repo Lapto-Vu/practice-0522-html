@@ -49,14 +49,12 @@
   height: 64px;
   justify-content: flex-end;
   position: relative;
-  z-index: 1;
 }
 
 .right-section__image {
   border-radius: 10px;
   width: 64px;
   height: 64px;
-  z-index: 1;
 }
 
 .right-section__like {
