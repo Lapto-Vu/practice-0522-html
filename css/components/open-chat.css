@@ -18,6 +18,9 @@
 .small-image {
   width: 13px;
   height: 13px;
+  border-radius: 5px;
+  position: relative;
+  top: 1px;
 }
 
 .open-chat-box__column:nth-child(1) {

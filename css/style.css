@@ -14,6 +14,7 @@
 @import url("components/user-column--middle.css");
 @import url("components/find-box.css");
 @import url("components/open-chat.css");
+@import url("components/settings-column.css");
 
 .body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,

@@ -43,3 +43,29 @@
 .top-bar__btn--find > a:nth-child(1) {
   margin-right: 20px;
 }
+
+.top-bar__btn--settings {
+  height: 100%;
+  width: 10%;
+}
+
+.top-bar--settings {
+  margin-top: 45px;
+  margin-bottom: 20px;
+  padding: 0px 15px;
+  width: 100%;
+  height: 5%;
+  justify-content: space-between;
+}
+
+.top-bar--settings > a {
+  font-size: 23px;
+}
+
+.sort {
+  width: 18%;
+}
+
+.sort > a:nth-child(2) {
+  margin-left: 22px;
+}

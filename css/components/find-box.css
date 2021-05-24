@@ -5,6 +5,7 @@
   width: 100%;
   height: 10%;
   justify-content: space-between;
+  font-size: 14px;
 }
 
 .find-box__column {
@@ -16,9 +17,29 @@
 
 .empty-zone {
   width: 100%;
-  height: 23%;
+  height: 21%;
   color: var(--grey);
 }
 .open-chat-text {
   margin-right: 15px;
+}
+
+.app {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+}
+
+.app ~ span {
+  color: var(--grey);
+  font-size: 12px;
+}
+
+.find-box--more {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  padding: 0px 5px;
+  width: 100%;
+  height: 11%;
+  justify-content: space-between;
 }
