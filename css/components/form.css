@@ -36,7 +36,7 @@ input:focus {
   height: 40%;
   border-style: none;
   font-size: 18px;
-  background-color: rgba(0, 0, 0, 0.05);
+  background-color: rgb(246, 246, 246);
   border-radius: 5px;
 }
 
