@@ -1,0 +1,13 @@
+.time-stamp {
+  width: 100%;
+  height: 5%;
+  margin: 15px 0px;
+}
+
+.time-stamp > span {
+  width: 210px;
+  height: 34px;
+  background-color: rgba(1, 1, 1, 0.1);
+  border-radius: 20px;
+  color: white;
+}

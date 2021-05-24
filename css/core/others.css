@@ -1,5 +1,5 @@
 :root {
-  --orange: rgb(249, 224, 0);
+  --yellow: rgb(249, 224, 0);
   --grey: rgba(0, 0, 0, 0.4);
   --blue: #c4d7ed;
 }
@@ -37,6 +37,20 @@ img {
   width: 100vw;
   height: 100vh;
   background-color: white;
+}
+
+.red-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  background-color: tomato;
+}
+
+.red-dot-mother {
+  position: relative;
 }
 
 .red-mid {
